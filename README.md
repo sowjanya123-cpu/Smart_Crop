@@ -62,7 +62,7 @@ cd Smart_Crop
 ### 2.Create a Virtual Environment
 python -m venv venv
 venv\Scripts\activate     # For Windows
-# or
+
 source venv/bin/activate  # For macOS/Linux
 
 ### 3.Install Dependencies
