@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("{{ url_for('static', filename='images/bg.jpg') }}") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.92);  /* slightly transparent for floating effect */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 450px;
+    backdrop-filter: blur(6px); /* smooth glass-like look */
+}
+
+h1 {
+    color: #2f8f46;
+    margin-bottom: 20px;
+}
+
+.input-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #3cb371;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #2f8f46;
+}
+
+.result {
+    margin-top: 25px;
+    background: rgba(231, 249, 234, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.result span {
+    color: #2f8f46;
+    font-weight: bold;
+}
+
+.result img {
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 15px;
+}
