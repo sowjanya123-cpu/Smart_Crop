@@ -54,7 +54,7 @@ Smart_Crop/
 
 ## 🌾 Project Screenshots
 ### 🔹 Images
-![Home Page](static/images/demo cofe.jpg)
+![Home Page](static/images/demo%20cofe.jpg)
 
 ## 🚀 Getting Started (Run Locally)
 
