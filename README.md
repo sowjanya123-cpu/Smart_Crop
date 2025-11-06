@@ -54,7 +54,10 @@ Smart_Crop/
 
 ## 🌾 Project Screenshots
 ### 🔹 Images
-![Home Page](static/images/demo%20cofe.jpg)
+<img src="static/images/demo%20cofe.jpg" alt="Home Page" width="600" height="350">
+<img src="static/images/demo%20maize.jpg" alt="Home Page" width="600" height="350">
+<img src="static/images/demo%20papaya.jpg" alt="Home Page" width="600" height="350">
+<img src="static/images/demo%20pigeon.jpg" alt="Home Page" width="600" height="350">
 
 ## 🚀 Getting Started (Run Locally)
 
