@@ -52,6 +52,10 @@ Smart_Crop/
 
 ---
 
+## 🌾 Project Screenshots
+### 🔹 Images
+![Home Page](static/images/demo cofe.jpg)
+
 ## 🚀 Getting Started (Run Locally)
 
 ### 1.Clone the Repository
